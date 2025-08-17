@@ -4,7 +4,6 @@
 - [Nmap](https://nmap.org) — scanner de rede.
 - [ExploitDB](https://www.exploit-db.com) — database de exploits/PoCs.
 - [ffuf](https://github.com/ffuf/ffuf) — fuzzer para web.
-- ffuzz — fuzzer alternativo.
 - [sqlmap](https://sqlmap.org) — SQL injection automation.
 - [nuclei](https://nuclei.projectdiscovery.io) — scanner baseado em templates.
 - [Nessus](https://www.tenable.com/products/nessus) — vulnerability scanner.
