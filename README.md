@@ -13,6 +13,7 @@
 ```bash
 git clone https://github.com/caduurosa/N00BP4CK.git
 cd N00BP4CK
+chmod +x scripts/install.sh
 sudo ./scripts/install.sh
 ```
 
@@ -26,5 +27,3 @@ sudo ./scripts/install.sh
 ---
 Coleção **educacional** de ferramentas de pentest, configuradas para uso em **labs/CTFs** ou **infra própria**.  
 ⚠️ **Aviso**: Nunca utilize sem permissão explícita. Não compactuo ou me responsabilizo por qualquer mau uso das ferramentas listadas.
-
-ducabot - 2025
