@@ -1,0 +1,48 @@
+- name: Nmap
+  category: recon-network
+  install:
+    - apt:nmap
+  homepage: https://nmap.org
+  notes: "Scanner de rede — uso apenas com permissão."
+
+- name: ExploitDB
+  category: osint
+  install:
+    - git:https://github.com/offensive-security/exploitdb.git
+  homepage: https://www.exploit-db.com
+  notes: "Banco de exploits e PoCs — para estudo e consulta."
+
+- name: ffuf
+  category: web
+  install:
+    - go:github.com/ffuf/ffuf@latest
+  homepage: https://github.com/ffuf/ffuf
+  notes: "Fuzzer rápido para web — brute force de dirs/parametros em labs."
+
+- name: ffuzz
+  category: web
+  install:
+    - go:github.com/ffuf/ffuf@latest
+  homepage: https://github.com/ffuf/ffuf
+  notes: "Outro fuzzer para aplicações web (confirme repo)."  
+
+- name: sqlmap
+  category: web
+  install:
+    - apt:sqlmap
+  homepage: https://sqlmap.org
+  notes: "Ferramenta de detecção/exploração de SQLi — apenas em ambientes controlados."
+
+- name: nuclei
+  category: web
+  install:
+    - go:github.com/projectdiscovery/nuclei/v2/cmd/nuclei@latest
+  homepage: https://nuclei.projectdiscovery.io
+  notes: "Scanner baseado em templates de vulnerabilidades."
+
+- name: Nessus
+  category: recon-network
+  install:
+    - manual:https://www.tenable.com/products/nessus/nessus-essentials
+  homepage: https://www.tenable.com/products/nessus
+  notes: "Vulnerability scanner — requer licença e registro (Nessus Essentials é gratuito p/ labs)."
