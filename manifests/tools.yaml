@@ -17,14 +17,7 @@
   install:
     - go:github.com/ffuf/ffuf@latest
   homepage: https://github.com/ffuf/ffuf
-  notes: "Fuzzer rápido para web — brute force de dirs/parametros em labs."
-
-- name: ffuzz
-  category: web
-  install:
-    - go:github.com/ffuf/ffuf@latest
-  homepage: https://github.com/ffuf/ffuf
-  notes: "Outro fuzzer para aplicações web (confirme repo)."  
+  notes: "Fuzzer rápido para web — brute force de dirs/parametros em labs." 
 
 - name: sqlmap
   category: web
