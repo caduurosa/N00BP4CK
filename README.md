@@ -25,4 +25,4 @@ sudo ./scripts/install.sh
 
 ---
   
-**Aviso**: Coleção educacional de ferramentas de pentest, configuradas para uso em **labs/CTFs** ou **infra própria**. Nunca utilize sem permissão explícita. Não compactuo ou me responsabilizo por qualquer mau uso das ferramentas listadas.
+**Aviso**: **Coleção educacional de ferramentas de pentest, configuradas para uso em labs/CTFs ou infra própria. Nunca utilize sem permissão explícita. Não compactuo ou me responsabilizo por qualquer mau uso das ferramentas listadas**.
